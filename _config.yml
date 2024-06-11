@@ -1,0 +1,21 @@
+title: Great web agency
+email: omau.paav@gmail.com
+description: "Hola mama estoy en internet."
+baseurl: ""
+url: "http://127.0.0.1:4000/"
+# twitter_username: jekyllrb
+# github_username:  jekyll
+plugins:
+  - jekyll-feed
+permalink: none
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Mauricio Palau"
+      category: "Technical Writing"
+
+
