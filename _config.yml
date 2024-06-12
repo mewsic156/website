@@ -2,7 +2,7 @@ title: Great web agency
 email: ""
 description: "test"
 baseurl: "/website"
-url: "https://mewsic156.github.io/website/"
+url: "127.0.0.1:4000/"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 plugins:
