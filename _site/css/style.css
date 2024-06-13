@@ -58,7 +58,7 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+  padding: 0px 0;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -78,6 +78,16 @@ header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
   font-size: 15px;
+}
+header .navbar-header {
+  display: flex;
+  align-items: center;
+}
+.navbar-default .navbar-brand button {
+  padding: 10px 20px;
+}
+header .navbar-header div{
+  width: 100%;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
