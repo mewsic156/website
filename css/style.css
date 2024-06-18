@@ -48,6 +48,9 @@ a:active {
   font-size: 28px;
   font-weight: 600;
 }
+#decap{
+  text-transform: none;
+}
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
@@ -162,8 +165,8 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
-  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -370,7 +373,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start 
 --*/
 #global-header {
-  background: url("../img/slider-bg2.jpg") no-repeat;
+  background: url("../img/slider-bg3.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -392,7 +395,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
+  /* padding-left: 90px; */
   text-align: center;
 }
 #global-header .block h1 {
@@ -409,6 +412,8 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+#global-header a.link {color: rgb(241, 192, 255);}
+#global-header a.link:hover {color: rgb(237, 171, 255);}
 /*--
 	portfolio-work Start 
 --*/
