@@ -1,0 +1,117 @@
+[
+      {
+        "id": "tw3",
+        "company": "Wizeline",
+        "companyURL": "www.wizeline.com",
+        "companyLogo": "img/company/wizeline.jpeg",
+        "title": "Technical Writer III",
+        "startDate": "2023/09",
+        "endDate": "Present",
+        "projects": [
+          {
+            "project": "Scalable Documentation Framework",
+            "impact": "For a leading clothing company, I integrated a documentation directory into an application template, ensuring new applications seamlessly instantiate with prebuilt documentation templates to set up documentation projects in the company developer portal quickly. This integration features a README with guidelines for writing API query pages, creating architecture diagrams, and writing release notes. I documented an application with this framework, which serves as a reference point for new applications' documentation projects."
+          },
+          {
+            "project": "P&L DataLake codebase documentation",
+            "impact": "For a leading beverage company, I authored documentation for a three-layer architecture DataLake for a P&L report application using Azure DevOps Wiki. The documentation's key feature includes an Azure Databricks workflow diagram. Each of the 35 jobs within the workflow is independently documented containing their respective data flow diagrams. This documentation provides the IT team with clear instructions for managing parametrization and scalability."
+          },
+          {
+            "project": "Prompt engineering for GenAI POC",
+            "impact": "For Wizeline, I participated as a prompt engineer on an AI POC capable of autonomously maintaining a database leveraging web scrapping techniques and the OpenAI API. Additionally, I supported the technical writing program in outlining standards for AI POC documentation."
+          }
+        ]
+      },
+      {
+        "id": "tw2",
+        "company": "Wizeline",
+        "companyURL": "www.wizeline.com",
+        "companyLogo": "img/company/wizeline.jpeg",
+        "title": "Technical Writer II",
+        "startDate": "2022/03",
+        "endDate": "2023/09",
+        "projects": [
+          {
+            "project": "Data Ingestion Pipeline Architecture",
+            "impact": "For a financial analytics company, I innovated three architecture diagrams for the company's flagship product infrastructure combining the C4 model and UML. These diagrams helped our clients visualize the system's components and data workflows at various levels of abstraction. Additionally, I documented an Architecture Overview that presents the infrastructure in a storytelling format, enhancing its appeal and value to readers. The project was completed in two months."
+          },
+          {
+            "project": "DevPortal Migration and Documentation",
+            "impact": "For a fashion retail company, I wrote and peer-reviewed copy texts for ten software product pages, created and tested sections for code labs, and formatted one year's worth of technology chapters and external events entries in Markdown for a DevPortal. Also, I produced AsciiDoc technical documentation for a software product in a five-month project."
+          },
+          {
+            "project": "AWS Migration & Modernization",
+            "impact": "For a landscaping company migrating their computing infrastructure from on-premise to AWS, I created an architecture overview, a system administration guide, and a business recovery plan following the AWS Well-Architected framework, enabling our clients to familiarize themselves and resume operations through the AWS infrastructure in a three-month project."
+          },
+          {
+            "project": "Authentication API",
+            "impact": "For a media company, I documented the Authentication API reference of their streaming service application, supporting the engineering teams in releasing the user registration and membership enrollment product features in a five-month project."
+          }
+        ]
+      },
+      {
+        "id": "it3",
+        "company": "Honeywell",
+        "companyURL": "www.honeywell.com",
+        "companyLogo": "img/company/honeywell.jpeg",
+        "title": "IT Analyst III",
+        "startDate": "2020/10",
+        "endDate": "2022/03",
+        "projects": [
+          {
+            "project": "Azure Migration",
+            "impact": "Updated standard operating procedures (SOPs), knowledge base articles (KBAs), and user-facing documentation for an IT service migrating their infrastructure from on-premise to the Azure cloud, resulting in the successful resumption of operations for system administrators and 40,000 users."
+          },
+          {
+            "project": "IT Operations Insourcing",
+            "impact": "For the IT mobility team implementing their ITSM operational model, I documented standard operating procedures (SOPs), knowledge base articles (KBAs), and troubleshooting guides. I also onboarded and trained five system administrators to support the team's objectives."
+          }
+        ]
+      },
+      {
+        "id": "it2",
+        "company": "Honeywell",
+        "companyURL": "www.honeywell.com",
+        "companyLogo": "img/company/honeywell.jpeg",
+        "title": "IT Analyst II",
+        "startDate": "2017/01",
+        "endDate": "2020/10",
+        "projects": [
+          {
+            "project": "Basic to OAuth User Group Migration",
+            "impact": "Created workaround instructions and troubleshooting guides for the IT mobility team's help desk, resulting in a successful migration of 35,000+ end users from Basic to OAuth with a 90% CSAT"
+          },
+          {
+            "project": "VMware Boxer Launch",
+            "impact": "Created setup instructions and how-to videos to assist 2,500 mobile users in adopting the VMware Boxer app for both company and BYOD use for the IT mobility team."
+          },
+          {
+            "project": "Bring Your Own Device (BYOD) program",
+            "impact": "Designed and developed the web documentation for the IT mobility team Bring Your Own Device (BYOD) service using Bootstrap 3 and successfully coordinated the program's release communications, resulting in the enrollment of 2,500 users."
+          },
+          {
+            "project": "Bootstrap Implementation to Sharepoint Site",
+            "impact": "Migrated over 20 user-facing Sharepoint pages to a Bootstrap 3 website using HTML/CSS/JS, enhancing the user experience of the IT mobility team's web documentation."
+          }
+        ]
+      },
+      {
+        "id": "it1",
+        "company": "Honeywell",
+        "companyURL": "www.honeywell.com",
+        "companyLogo": "img/company/honeywell.jpeg",
+        "title": "IT Analyst I",
+        "startDate": "2015/07",
+        "endDate": "2022/03",
+        "projects": [
+          {
+            "project": "Major OS UAT templates",
+            "impact": "Created user acceptance testing (UAT) templates for the IT mobility team, allowing for the assessment of the service's UX and enabling the IT team to test and approve mobile beta OS releases before launch."
+          },
+          {
+            "project": "Enrollment Guide Modernization",
+            "impact": "Simplified the mobile activation instructions for the IT mobility service's device request and enrollment process, reducing 25 PDF pages to a 5-minute read article and a 3-minute how-to video."
+          }
+        ]
+      }
+    ]

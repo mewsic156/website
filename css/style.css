@@ -204,7 +204,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start 
 --*/
 #call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
+  background: url("../img/cta-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -221,7 +221,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #1d192c;
+  background: #403c50;
   opacity: 0.8;
 }
 #call-to-action h2 {
@@ -246,7 +246,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start 
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/feature-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
