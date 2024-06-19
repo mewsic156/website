@@ -1,0 +1,32 @@
+[
+    {
+        "id": "aws_ccp",
+        "org": "Amazon Web Services",
+        "logo": "img/cert/awsccp.png",
+        "name": "Amazon Web Services Certified Cloud Practitioner",
+        "desc": "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.",
+        "url": "https://www.credly.com/badges/3d2f95d1-9b60-46d5-9887-cb812d9a8be0",
+        "issueDate": "2022/11",
+        "expireDate": "2025/11"
+    },
+    {
+        "id": "m_fse",
+        "org": "Meta",
+        "logo": "img/cert/mfse.png",
+        "name": "Meta Full-Stack Engineer Certificate",
+        "certDescription": "The Meta Full-Stack Engineer Certificate is awarded to learners who complete both the Front-end and Backend Developer certificate programs, hosted by Coursera. These rigorous, self-paced courses, developed by Meta experts, prepare a candidate for an entry level job as a full-stack developer. The courses culminate in the successful completion of capstone projects.",
+        "url": "https://www.credly.com/badges/04dbe2fc-95f8-4fec-aa28-c461bf6beb89",
+        "issueDate": "2023/10",
+        "expireDate": "Never"
+    },
+    {
+        "id": "ecc_cpm",
+        "org": "EC-Council",
+        "logo": "img/cert/ecc_cpm.jpeg",
+        "name": "Certified Project Manager",
+        "certDescription": "Asses risks for an organization. Identify and schedule project resources, create project flowcharts, produce critical path planning, and evaluation reports.",
+        "url": "https://aspen.eccouncil.org/VerifyBadge?type=certification&a=RBxQ48VFFXmgFL8BLHpi4jh5YTB9/wEgy6NuQfBaRNY=",
+        "issueDate": "2015/05",
+        "expireDate": "Never"
+    }
+]

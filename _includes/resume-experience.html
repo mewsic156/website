@@ -13,12 +13,12 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6">
 
-              <h4>{{ experience.company }}</h4>
+              <h4>{{ experience.title }}</h4>
+              <h5>{{ experience.company }}</h5>
               {{ experience.startDate }} - {{ experience.endDate }}<br>
-              <h5>{{ experience.title }}</h5>
 
             </div>
-            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <div class="col-md-1 col-sm-1 col-xs-1">
               <p style="padding-top: 5px;">
                 <button class="btn btn-view-works" type="button" data-toggle="collapse"
                   data-target="#{{ experience.id }}" aria-expanded="false" aria-controls="{{ experience.id }}">

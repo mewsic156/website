@@ -1,0 +1,87 @@
+    <!-- Wrapper Start -->
+    <section id="intro">
+        <div class="container">
+          <div class="row justify-content-center">
+            <!-- COLUMN1 -->
+            <div class="col-md-6 col-sm-12">
+              <div class="block">
+                <div class="section-title" style="padding-bottom: 30px;">
+                  <h2>Education</h2>
+                </div>
+
+                {% for education in site.data.educations %}
+
+                <div class="container">
+                  <div class="row  justify-content-left">
+                    <div class="col-md-1 col-sm-1 col-xs-1">
+                      <img src="{{ education.schoolLogo }}" style="padding-top: 10px; min-width: 25px; max-width: 100%; margin: auto; border-radius: 0px;">
+                    </div>
+                    <div class="col-md-3 col-sm-7 col-xs-7">
+
+                      <h4>{{ education.program }}</h4>
+                      <h5>{{ education.school }}</h5>
+                      {{ education.startDate }} - {{ education.endDate }}
+
+                    </div>
+                    <div class="col-md-1 col-sm-1 col-xs-1">
+                      <p style="padding-top: 5px;">
+                        <a href="{{ education.certificateURL }}" target="_blank">
+                          <button class="btn btn-default" type="button">
+                            Verify
+                          </button>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+
+                {% endfor %}
+
+              </div>
+            </div>
+            <!-- CLOSES COLUMN1 -->
+
+            <!-- COLUMN2 -->
+            <div class="col-md-6 col-sm-12">
+              <div class="block">
+                <div class="section-title" style="padding-bottom: 30px;">
+                  <h2>Certifications</h2>
+                </div>
+
+                {% for certification in site.data.certifications %}
+
+                <div class="container">
+                  <div class="row  justify-content-left">
+                    <div class="col-md-1 col-sm-1 col-xs-1">
+                      <img src="{{ certification.logo }}" style="padding-top: 10px; min-width: 25px; max-width: 100%; margin: auto; border-radius: 0px;">
+                    </div>
+                    <div class="col-md-3 col-sm-7 col-xs-7">
+
+                      <h4>{{ certification.name }}</h4>
+                      <h5>{{ certification.org }}</h5>
+                      {{ certification.issueDate }} - {{ certification.expireDate }}
+
+                    </div>
+                    <div class="col-md-1 col-sm-1 col-xs-1">
+                      <p style="padding-top: 5px;">
+                        <a href="{{ certification.url }}" target="_blank">
+                          <button class="btn btn-default" type="button">
+                            Verify
+                          </button>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+
+                {% endfor %}
+
+              </div>
+            </div>
+            <!-- CLOSES COLUMN2 -->
+
+          </div>
+        </div>
+      </section>
