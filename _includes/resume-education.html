@@ -20,7 +20,7 @@
 
                       <h5>{{ education.program }}</h5>
                       <h6>{{ education.school }}</h6>
-                      {{ education.startDate }} - {{ education.endDate }}
+                      {{ education.startDate }} • {{ education.endDate }}
 
                     </div>
                     <div class="col-md-1 col-sm-1 col-xs-1">
@@ -60,7 +60,7 @@
 
                       <h5>{{ certification.name }}</h5>
                       <h6>{{ certification.org }}</h6>
-                      {{ certification.issueDate }} - {{ certification.expireDate }}
+                      Issued on {{ certification.issueDate }}{% if certification.expireDate != "Never" %}, expires in {{ certification.expireDate }}{% endif %}
 
                     </div>
                     <div class="col-md-1 col-sm-1 col-xs-1">

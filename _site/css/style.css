@@ -282,6 +282,75 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 10px 20px;
 }
 /*--
+	Tools Start 
+--*/
+#skills {
+  position: relative;
+  width: 100%;
+  display: block;
+  padding: 100px 0;
+  overflow: visible;
+  box-sizing: border-box;
+  background-color: #fff; /* Optional if you need a fallback background color */
+  position: relative;
+  z-index: 1;
+}
+
+#skills::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../img/skills-bg.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  filter: blur(4px);
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+#skills .expbox {
+  padding-bottom: 10px;
+}
+
+#skills .expbox div:first-child {
+  background-color: #D3D3D3;
+  text-align: center;
+}
+
+#skills .expbox div:first-child h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+#skills .expbox div:not(:first-child) {
+  padding: 10px 0px 10px 20px;
+  background-color: #F4F4F4;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+#skills h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#skills p {
+  color: #8d8f92;
+  margin-bottom: 20px;
+}
+#skills .btn-view-works {
+  background: #655E7A;
+  color: #fff;
+  padding: 10px 20px;
+}
+/*--
 	content Start 
 --*/
 #testimonial {

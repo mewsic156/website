@@ -1,0 +1,65 @@
+[
+    {
+        "expert": [
+            "📝 Docs-as-code",
+            "📝 Unified Modeling Language",
+            "📝 Architecture Documentation",
+            "📝 Configuration Guides",
+            "📝 Information Architecture",
+            "📝 Installation Guides",
+            "📝 Standard Operation Procedures",
+            "📝 Troubleshooting Guides",
+            "🔧 Markdown",
+            "🔧 HTML, CSS, JS",
+            "🔧 JSON, XML, YAML"
+        ]
+    },
+    {
+        "advanced": [
+            "📝 Administrator Guides",
+            "📝 Frequently Asked Questions",
+            "📝 Requirements Gathering",
+            "📝 User Guides",
+            "📝 Proof Reading",
+            "🔧 Google Workspace",
+            "🔧 Microsoft 365",
+            "🔧 Prompt Engineering",
+            "📒 Cloud Migration",
+            "📒 IT Change Management",
+            "📒 Amazon Web Services",
+            "📒 Agile Scrum Methodology"
+        ]
+    },
+    {
+        "intermediate": [
+            "📝 API Documentation",
+            "📝 Copywriting",
+            "📝 Developer Guides",
+            "📝 Disaster Recovery Guide",
+            "📝 Release Notes",
+            "📝 Requirements Gathering",
+            "🔧 Confluence",
+            "🔧 Bootstrap",
+            "🔧 GitHub",
+            "🔧 UNIX CLI",
+            "🔧 MySQL",
+            "🔧 Python",
+            "📒 ITIL",
+            "📒 API",
+            "📒 Azure"
+        ]
+    },
+    {
+        "novice": [
+            "🎨 Wireframing",
+            "🎨 Journey Mapping",
+            "🎨 Personas",
+            "🎨 Figma",
+            "🔧 Django REST Framework",
+            "🔧 React.js",
+            "🔧 PHP",
+            "🔧 Swagger"
+
+        ]
+    }
+]

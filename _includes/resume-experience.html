@@ -1,7 +1,7 @@
 <section id="feature">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-md-offset-5" style="padding-top: 25px; background-color: rgb(255, 255, 255, 0.93);">
+      <div class="col-md-7 col-md-offset-5" style="padding-top: 25px; background-color: rgba(255, 255, 255, 0.93); box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); border-radius: 5px;">
         <h2>PROFESSIONAL EXPERIENCE</h2>
 
         {% for experience in site.data.experiences %}
@@ -15,7 +15,7 @@
 
               <h5>{{ experience.title }}</h4>
               <h6>{{ experience.company }}</h6>
-              {{ experience.startDate }} - {{ experience.endDate }}<br>
+              {{ experience.startDate }} • {{ experience.endDate }}<br>
 
             </div>
             <div class="col-md-1 col-sm-1 col-xs-1">
@@ -27,7 +27,7 @@
               </p>
             </div>
           </div>
-          <hr>
+
 
           <div class="collapse" id="{{ experience.id }}">
             <div class="card card-body">
@@ -35,22 +35,23 @@
                 <div class="row">
                   <div class="col-md-1 col-sm-1 col-xs-1"></div>
                   <div class="col-md-5 col-sm-10 col-xs-10">
-
+                  <br>
                     {% for project in experience.projects %}
 
-                    <p style="color: black;"><strong>Project:</strong> {{ project.project }}<br>
+                    <p style="color: black;"> <strong>Project:</strong> {{ project.project }}<br>
                       <strong>Impact:</strong> {{ project.impact }}
                     </p>
                     <br>
 
                     {% endfor %}
-                    
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <hr>
 
         {% endfor %}
       </div>
