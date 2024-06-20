@@ -5,21 +5,20 @@
         <h2>PROFESSIONAL EXPERIENCE</h2>
 
         {% for experience in site.data.experiences %}
- 
-        <div class="container">
-          <div class="row">
-            <div class="col-md-1 col-sm-1 col-xs-1">
-              <img src="{{ experience.companyLogo }}" style="padding-top: 10px; min-width: 25px; max-width: 100%; margin: auto;">
+
+          <div class="row justify-content-left">
+            <div class="col-md-2 col-sm-2 col-xs-2">
+              <img src="{{ experience.companyLogo }}" style="min-width: 25px; max-width: 100%; margin: auto;">
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="col-md-6 col-sm-6 col-xs-6">
 
               <h5>{{ experience.title }}</h4>
               <h6>{{ experience.company }}</h6>
               {{ experience.startDate }} • {{ experience.endDate }}<br>
 
             </div>
-            <div class="col-md-1 col-sm-1 col-xs-1">
-              <p style="padding-top: 5px;">
+            <div class="col-md-2 col-sm-2 col-xs-2">
+              <p style="padding-top: 15px;">
                 <button class="btn btn-view-works" type="button" data-toggle="collapse"
                   data-target="#{{ experience.id }}" aria-expanded="false" aria-controls="{{ experience.id }}">
                   See projects
@@ -50,7 +49,6 @@
               </div>
             </div>
           </div>
-        </div>
         <hr>
 
         {% endfor %}

@@ -11,20 +11,19 @@
 
                 {% for education in site.data.educations %}
 
-                <div class="container">
-                  <div class="row  justify-content-left">
-                    <div class="col-md-1 col-sm-1 col-xs-1">
+                  <div class="row justify-content-left">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
                       <img src="{{ education.schoolLogo }}" style="padding-top: 10px; min-width: 25px; max-width: 100%; margin: auto; border-radius: 0px;">
                     </div>
-                    <div class="col-md-3 col-sm-7 col-xs-7">
+                    <div class="col-md-6 col-sm-7 col-xs-7">
 
                       <h5>{{ education.program }}</h5>
                       <h6>{{ education.school }}</h6>
                       {{ education.startDate }} • {{ education.endDate }}
 
                     </div>
-                    <div class="col-md-1 col-sm-1 col-xs-1">
-                      <p style="padding-top: 5px;">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                      <p style="padding-top: 15px;">
                         <a href="{{ education.certificateURL }}" target="_blank">
                           <button class="btn btn-default" type="button">
                             Verify
@@ -33,7 +32,6 @@
                       </p>
                     </div>
                   </div>
-                </div>
                 <hr>
 
                 {% endfor %}
@@ -51,20 +49,19 @@
 
                 {% for certification in site.data.certifications %}
 
-                <div class="container">
                   <div class="row  justify-content-left">
-                    <div class="col-md-1 col-sm-1 col-xs-1">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
                       <img src="{{ certification.logo }}" style="padding-top: 10px; min-width: 25px; max-width: 100%; margin: auto; border-radius: 0px;">
                     </div>
-                    <div class="col-md-3 col-sm-7 col-xs-7">
+                    <div class="col-md-6 col-sm-7 col-xs-7">
 
                       <h5>{{ certification.name }}</h5>
                       <h6>{{ certification.org }}</h6>
                       Issued on {{ certification.issueDate }}{% if certification.expireDate != "Never" %}, expires in {{ certification.expireDate }}{% endif %}
 
                     </div>
-                    <div class="col-md-1 col-sm-1 col-xs-1">
-                      <p style="padding-top: 5px;">
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                      <p style="padding-top: 15px;">
                         <a href="{{ certification.url }}" target="_blank">
                           <button class="btn btn-default" type="button">
                             Verify
@@ -73,7 +70,6 @@
                       </p>
                     </div>
                   </div>
-                </div>
                 <hr>
 
                 {% endfor %}
