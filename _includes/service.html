@@ -3,17 +3,17 @@
         <div class="container">
           <div class="row">
             <div class="section-title">
-              <h2>Our Services</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+              <h2>What I do</h2>
+              <p style="margin: 0px 10px 10px 10px;">As a technical writer, I create clear and concise documentation to guide users and developers in setting up and using software. I collaborate closely with engineering teams to ensure accuracy and accessibility throughout the development process.</p>
             </div>
           </div>
           <div class="row ">
 
             {% for service in site.data.services %}
-              <div class="col-sm-6 col-md-3">
+              <div class="col-md-3 col-sm-6 col-xs-6">
                 <div class="service-item">
                   <i class="{{ service.icon }}"></i>
-                  <h4>{{ service.title }}</h4>
+                  <h5>{{ service.title }}</h5>
                   <p>{{ service.content }}</p>
                 </div>
               </div>
