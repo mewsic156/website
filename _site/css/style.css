@@ -53,6 +53,7 @@ a:active {
 }
 .section-title p {
   font-family: 'Volkhov', serif;
+  font-size: 1.1em;
   font-style: italic;
   color: #666;
 }
