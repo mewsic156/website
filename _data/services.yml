@@ -1,18 +1,18 @@
 - icon: "ion-android-document"
-  title: "Technical Documentation"
-  content: "Produce user-friendly manuals and guides for clear understanding."
+  title: "Manuals and Guides"
+  content: "Aid users in using software products and services."
 
 - icon: "ion-android-laptop"
   title: "API Documentation"
-  content: "Create detailed guides to help developers seamlessly integrate software."
+  content: "Aid developers in integrating and utilizing APIs effectively."
 
 - icon: "ion-android-create"
-  title: "Writing and Editing"
-  content: "Write clear and precise technical content suitable for diverse audiences."
+  title: "Copywriting"
+  content: "Engage and persuade users through compelling written content."
 
 - icon: "ion-android-clipboard"
   title: "Content Strategy"
-  content: "Develop strategies for consistent and lifecycle-aligned updates to documentation."
+  content: "Implement strategies for consistent updates to documentation."
 
 - icon: "ion-chatbox-working"
   title: "User Experience Writing"
@@ -20,12 +20,12 @@
 
 - icon: "ion-android-map"
   title: "Information Architecture"
-  content: "Organize content to ensure efficient usability and information retrieval."
+  content: "Organize content to ensure efficient information retrieval."
 
 - icon: "ion-android-bookmark"
   title: "Knowledge Management"
-  content: "Implement systems for organized and accessible documentation."
+  content: "Implement systems to manage and facilitate access to content."
 
 - icon: "ion-videocamera"
   title: "Training and Support Materials"
-  content: "Develop resources such as tutorials and articles for effective user training and support."
+  content: "Support users with tutorials and articles for training and support."
