@@ -1,0 +1,55 @@
+---
+layout: default
+title: Test title
+subtitle: Test description
+---
+
+<section id="port">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="block">
+                    <p><i class="ion-android-arrow-down"></i> Document Sample <i class="ion-android-arrow-down"></i> | <a href="portfolio.html"><button type="button" class="btn btn-default"><i class="ion-arrow-return-left"></i> Portfolio</button></a></p>
+                    <hr>
+                </div><!-- block -->
+            </div><!-- col-md-6 col-sm-12 -->
+        </div><!-- row -->
+    </div><!-- container -->
+</section><!-- intro -->
+
+<section id="port">
+
+    <iframe id="dynamicIframe" src=""></iframe>
+
+    <script>
+        // Function to get URL parameter by name
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Get the value of 'doc' parameter from the URL
+        var docValue = getUrlParameter('doc');
+
+        // Set the src attribute of the iframe if docValue is present
+        if (docValue) {
+            document.getElementById('dynamicIframe').src = 'file/' + docValue + '.pdf';
+        }
+    </script>
+
+</section>
+
+<section id="port">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="block">
+                    <hr>
+                    <p><i class="ion-android-arrow-up"></i> Document Sample <i class="ion-android-arrow-up"></i> | <a href="portfolio.html"><button type="button" class="btn btn-default"><i class="ion-arrow-return-left"></i> Portfolio</button></a></p>
+                </div><!-- block -->
+            </div><!-- col-md-6 col-sm-12 -->
+        </div><!-- row -->
+    </div><!-- container -->
+</section><!-- intro -->

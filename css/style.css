@@ -176,6 +176,54 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 /*--
+Portfolio examples
+--*/
+#port {
+  padding: 10px 0;
+  background: linear-gradient(to left, #928dab, #524c6b 70%);
+  color: #E3E3E4;
+  text-align: center;
+}
+#port p{
+  font-size: 1.2em;
+}
+#port iframe{
+  width: 96%;
+  height: 75vh;
+  border: 4px solid #F1C0FF;
+  border-style: inset;
+  border-radius: 1%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#port hr{
+  margin: 0px 0px;
+}
+#port .block a {
+  color: #F1C0FF;
+}
+#port .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+#port .block p {
+  padding-top: 20px;
+}
+#port .block img {
+  max-width: 300px;
+  border-radius: 50%;
+}
+#port .section-title {
+  margin-bottom: 0px;
+}
+#port .section-title p {
+  padding-top: 20px;
+}
+#port button{
+  background-color: #676479;
+  color: #E3E3E4;
+}
+/*--
 	service Start 
 --*/
 #service {
@@ -650,7 +698,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work .block .portfolio-contant .position-center {
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 0%;
   -webkit-transform: translate(0%, 50%);
   -moz-transform: translate(0%, 50%);
   -ms-transform: translate(0%, 50%);

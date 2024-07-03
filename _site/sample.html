@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact</title>
+    <title>Test title</title>
     <meta name="description" content="My Portfolio Website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <base href="http://localhost:4000">
@@ -68,8 +68,8 @@
                     <li  ><a href="resume.html">Resume</a></li>
                     <li  ><a href="portfolio.html">Portfolio</a></li>
                     <!-- <li  ><a href="blog.html">Blog</a></li> -->
-                    <!-- <li  ><a href="sample.html">Sample</a></li> -->
-                    <li class="active" ><a href="contact.html">Contact</a></li>
+                    <!-- <li class="active" ><a href="sample.html">Sample</a></li> -->
+                    <li  ><a href="contact.html">Contact</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
@@ -79,78 +79,55 @@
       </div>
     </header><!-- header close -->
 
-             <!-- Slider Start -->
- <section id="global-header">
+    <section id="port">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="block">
-            <h1>Contact</h1>
-            
-            <p>Any reason to get in touch is good</p>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-        <!-- contact form start -->
-<section id="contact-form">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="block">
+                    <p><i class="ion-android-arrow-down"></i> Document Sample <i class="ion-android-arrow-down"></i> | <a href="portfolio.html"><button type="button" class="btn btn-default"><i class="ion-arrow-return-left"></i> Portfolio</button></a></p>
+                    <hr>
+                </div><!-- block -->
+            </div><!-- col-md-6 col-sm-12 -->
+        </div><!-- row -->
+    </div><!-- container -->
+</section><!-- intro -->
+
+<section id="port">
+
+    <iframe id="dynamicIframe" src=""></iframe>
+
+    <script>
+        // Function to get URL parameter by name
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Get the value of 'doc' parameter from the URL
+        var docValue = getUrlParameter('doc');
+
+        // Set the src attribute of the iframe if docValue is present
+        if (docValue) {
+            document.getElementById('dynamicIframe').src = 'file/' + docValue + '.pdf';
+        }
+    </script>
+
+</section>
+
+<section id="port">
     <div class="container">
-      <div id="contact-box" style="padding: 0px 0px 20px;">
-        <div class="block">
-      <h2 style="padding: 0px 0px 0px; margin: 0px 0px 10px;">CONTACT FORM</h2>
-      <p>Fill the form to send me an email and I'll respond as soon as possible.</p>
-      </div>
-      </div>
-      <div class="row" style="padding: 15px 0px 15px; border-radius: 10px; background-color: rgb(178, 175, 186);">
-        <div class="col-md-6 col-sm-12" style="padding-bottom: 15px;">
-          <div class="block">
-            <form action="https://formspree.io/f/xknddoyy" method="POST">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-              </div>
-              <div class="form-group">
-                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-              </div>
-              <div class="form-group">
-                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-              </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="block">
-              <div class="form-group-2">
-                <textarea class="form-control" name="body" rows="3" placeholder="Your Message" required></textarea>
-              </div>
-              <button class="btn btn-default" type="submit">Send Message</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div id="contact-box"  style="padding: 35px 0px 0px;">
-          <div class="block">
-            <h4>Connect with me on <a href="https://www.linkedin.com/in/mauricio-palau-9a0069246/" target="_blank"><strong>LinkedIn</strong> <span style="font-size: 1.2em;"><i class="fa fa-linkedin-square"></span></i></a></h4>
-          </div>
-      </div>
-    </div>
-  </section>
-            <!-- Call to action Start -->
-    <section id="call-to-action">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="block">
-
-                <h2>It's a pleasure to have you here</h2>
-
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="block">
+                    <hr>
+                    <p><i class="ion-android-arrow-up"></i> Document Sample <i class="ion-android-arrow-up"></i> | <a href="portfolio.html"><button type="button" class="btn btn-default"><i class="ion-arrow-return-left"></i> Portfolio</button></a></p>
+                </div><!-- block -->
+            </div><!-- col-md-6 col-sm-12 -->
+        </div><!-- row -->
+    </div><!-- container -->
+</section><!-- intro -->
 
     <!-- footer Start -->
     <footer>
@@ -163,7 +140,7 @@
                   <li  ><a href="resume.html">Resume</a></li>
                   <li  ><a href="portfolio.html">Portfolio</a></li>
                   <!-- <li  ><a href="blog.html">Blog</a></li> -->
-                  <li class="active" ><a href="contact.html">Contact</a></li>
+                  <li  ><a href="contact.html">Contact</a></li>
                 </ul>
               </div>
               <p>I do not endorse or participate in my company's or clients' political or social interests. I provide professional services focusing only on my company's and clients' needs.</p>

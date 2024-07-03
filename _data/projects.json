@@ -1,38 +1,44 @@
 [
     {
-        "category": "Branding",
-        "img": "img/portfolio/work1.jpg",
-        "title": "Tesla Motors",
-        "content": "Labore et dolore magna aliqua. Ut enim ad"
+        "category": "Copywriting",
+        "img": "img/portfolio/cw1.png",
+        "path": "cw1",
+        "title": "CyberArk Product Page",
+        "content": "Provides developers with resources to use and integrate CyberArk's security solutions."
     },
     {
-        "category": "Websites",
-        "img": "img/portfolio/work2.jpg",
-        "title": "Tesla Motors",
-        "content": "Labore et dolore magna aliqua. Ut enim ad"
+        "category": "Architecture",
+        "img": "img/portfolio/arch1.png",
+        "path": "arch1",
+        "title": "ETL Architecture",
+        "content": "Explains developers an application's infrastructure for onboarding, scaling, and maintenance."
     },
     {
-        "category": "Graphic",
-        "img": "img/portfolio/work3.jpg",
-        "title": "Tesla Motors",
-        "content": "Labore et dolore magna aliqua. Ut enim ad"
+        "category": "API",
+        "img": "img/portfolio/api1.png",
+        "path": "api1",
+        "title": "API Getting Started",
+        "content": "Guides developers through the API's initial setup and usage."
     },
     {
-        "category": "design",
-        "img": "img/portfolio/work4.jpg",
-        "title": "Tesla Motors",
-        "content": "Labore et dolore magna aliqua. Ut enim ad"
+        "category": "API",
+        "img": "img/portfolio/api2.png",
+        "path": "api2",
+        "title": "GPT Chatbot",
+        "content": "Guides developers in implementing a chatbot that integrates with OpenAI's GPT models."
     },
     {
-        "category": "Video",
-        "img": "img/portfolio/work5.jpg",
-        "title": "Tesla Motors",
-        "content": "Labore et dolore magna aliqua. Ut enim ad"
+        "category": "Manual",
+        "img": "img/portfolio/man1.png",
+        "path": "man1",
+        "title": "PaaS Development",
+        "content": "Explains developers the advantages of authoring or enhancing an application through PaaS."
     },
     {
-        "category": "Graphic",
-        "img": "img/portfolio/work6.jpg",
-        "title": "Tesla Motors",
-        "content": "Labore et dolore magna aliqua. Ut enim ad"
+        "category": "Training",
+        "img": "img/portfolio/train1.png",
+        "path": "train1",
+        "title": "GitHub Tutorial",
+        "content": "Guides users in setting up GitHub and creating a pull request to validate the setup."
     }
 ]
