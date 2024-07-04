@@ -52,10 +52,9 @@ a:active {
   text-transform: none;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
-  font-size: 1.1em;
-  font-style: italic;
-  color: #666;
+  font-family: 'Volkhov'f;
+  font-size: 1.2em;
+  color: #444;
 }
 /*--
 	Header Start 
@@ -160,6 +159,9 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
+}
+#intro .section-title p{
+  color: #444;
 }
 #intro .block p {
   color: #7B7B7B;
@@ -579,7 +581,7 @@ Portfolio examples
 --*/
 #portfolio-work {
   overflow: hidden;
-  padding: 80px 0;
+  padding: 80px 0px 0px 0px;
 }
 #portfolio-work .block .portfolio-menu {
   padding-bottom: 30px;
