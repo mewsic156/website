@@ -1,44 +1,9 @@
 [
     {
-        "category": "Copywriting",
-        "img": "img/portfolio/cw1.png",
-        "path": "cw1",
-        "title": "CyberArk Product Page",
-        "content": "Provides developers with resources to use and integrate CyberArk's security solutions."
-    },
-    {
         "category": "Architecture",
         "img": "img/portfolio/arch1.png",
         "path": "arch1",
-        "title": "ETL Architecture",
-        "content": "Explains developers an application's infrastructure for onboarding, scaling, and maintenance."
-    },
-    {
-        "category": "API",
-        "img": "img/portfolio/api1.png",
-        "path": "api1",
-        "title": "API Getting Started",
-        "content": "Guides developers through the API's initial setup and usage."
-    },
-    {
-        "category": "API",
-        "img": "img/portfolio/api2.png",
-        "path": "api2",
-        "title": "GPT Chatbot",
-        "content": "Guides developers in implementing a chatbot that integrates with OpenAI's GPT models."
-    },
-    {
-        "category": "Manual",
-        "img": "img/portfolio/man1.png",
-        "path": "man1",
-        "title": "PaaS Development",
-        "content": "Explains developers the advantages of authoring or enhancing an application through PaaS."
-    },
-    {
-        "category": "Training",
-        "img": "img/portfolio/train1.png",
-        "path": "train1",
-        "title": "GitHub Tutorial",
-        "content": "Guides users in setting up GitHub and creating a pull request to validate the setup."
+        "title": "Cloud Web Application",
+        "content": "Provides developers with details about an application's architectural elements and dataflow."
     }
 ]
