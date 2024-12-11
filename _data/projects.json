@@ -1,9 +1,23 @@
 [
     {
-        "category": "Architecture",
+        "category": "Explanation",
         "img": "img/portfolio/arch1.png",
         "path": "arch1",
         "title": "Cloud Web Application",
-        "content": "Provides developers with details about an application's architectural elements and dataflow."
+        "content": "Explains developers an application's architectural elements."
+    },
+    {
+        "category": "Tutorial",
+        "img": "img/portfolio/api2.png",
+        "path": "howto",
+        "title": "Chatbot LLM Integration",
+        "content": "Guides developers in implementing ChatGPT using a Slackbot. Based on Tech With Tim's YouTube tutorial"
+    },
+    {
+        "category": "How-To",
+        "img": "img/portfolio/api1.png",
+        "path": "api1",
+        "title": "API Getting Started",
+        "content": "Guides developers in trying a GraphQL API."
     }
 ]
