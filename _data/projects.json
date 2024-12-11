@@ -18,6 +18,6 @@
         "img": "img/portfolio/api1.png",
         "path": "api1",
         "title": "API Getting Started",
-        "content": "Guides developers in trying a GraphQL API."
+        "content": "Guides developers in setting up and trying a GraphQL API."
     }
 ]
