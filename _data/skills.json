@@ -1,65 +1,41 @@
 [
     {
-        "expert": [
-            "📝 Docs-as-Code",
-            "📝 Unified Modeling Language",
-            "📝 Architecture Documentation",
-            "📝 Information Architecture",
-            "📝 Knowledge Base Articles",
-            "📝 Installation Guides",
-            "📝 Troubleshooting Guides",
-            "🔧 Markdown",
-            "🔧 HTML, CSS",
-            "🔧 JSON, XML, YAML"
-        ]
-    },
-    {
         "advanced": [
-            "📝 Administrator Guides",
-            "📝 Configuration Guides",
-            "📝 Standard Operation Procedures",
-            "📝 Frequently Asked Questions",
+            "📝 Docs-as-Code",
+            "📝 API Documentation",
             "📝 User Guides",
-            "📝 Proof Reading",
-            "📝 Developer Guides",
-            "📝 Release Notes",
-            "🔧 Google Workspace",
-            "🔧 Microsoft 365",
-            "🔧 Prompt Engineering",
-            "📒 Cloud Migration",
-            "📒 IT Change Management",
-            "📒 Amazon Web Services",
-            "📒 Agile Scrum Methodology"
+            "📝 Architecture Overviews",
+            "📝 UML & C4 Moddeling",
+            "🔧 GitHub, Confluence, Jira",
+            "🔧 M365, Google Workspace",
+            "🔧 HTML, CSS, Markdown",
+            "🔧 JSON, XML, YAML",
+            "🤖 Technical Writing Prompting",
+            "📒 IT Systems and Operations",
+            "📒 Cloud Migration and Documentation"
         ]
     },
     {
         "intermediate": [
-            "📝 API Documentation",
-            "📝 Copywriting",
-            "📝 Requirements Gathering",
-            "🔧 Confluence",
-            "🔧 Bootstrap",
-            "🔧 GitHub",
-            "🔧 UNIX CLI",
-            "🔧 MySQL",
-            "🔧 Python",
-            "📒 ITIL",
-            "📒 API",
-            "📒 Azure"
+            "🔧 Static Site Generators",
+            "🔧 Git",
+            "🔧 SQL",
+            "🔧 Python, Jupyter",
+            "🔧 Swagger and Postman",
+            "🔧 SQL",
+            "🤖 Business Analytics Prompting",
+            "🤖 Custer Service Prompting",
+            "📒 Software and DevOps Engineering",
+            "📒 Agile Scrum Methodology",
+            "📒 AI Fundamentals"
         ]
     },
     {
         "novice": [
-            "🎨 Wireframing",
-            "🎨 Journey Mapping",
-            "🎨 Personas",
-            "🎨 Figma",
-            "🔧 Django REST Framework",
-            "🔧 React.js",
-            "🔧 JavaScript",
-            "🔧 PHP",
-            "🔧 Swagger"
-
+            "📝 Copywriting",
+            "📝 UX Writing",
+            "📝 UX Research",
+            "🤖 UX Prompting"
         ]
     }
 ]

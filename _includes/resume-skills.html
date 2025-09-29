@@ -6,44 +6,59 @@
 
           <div class="container" style="padding: 0px 25px 15px 25px;">
             <div class="row justify-content-center">
-              <div class="col-md-3 col-sm-6 col-xs-12 expbox">
-                <div><h6>Expert</h6></div>
-
-                  {% assign skills = site.data.skills %}
-                  {% for item in skills[0].expert %}
-                    <div> {{ item }}</div>
-                  {% endfor %}
-
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12 expbox">
+              <div class="col-md-4 col-sm-4 col-xs-12 expbox">
                 <div><h6>Advanced</h6></div>
 
                   {% assign skills = site.data.skills %}
-                  {% for item in skills[1].advanced %}
+                  {% for item in skills[0].advanced %}
                     <div> {{ item }}</div>
                   {% endfor %}
 
               </div>
-              <div class="col-md-3 col-sm-6 col-xs-12 expbox">
+              <div class="col-md-4 col-sm-4 col-xs-12 expbox">
                 <div><h6>Intermediate</h6></div>
 
                   {% assign skills = site.data.skills %}
-                  {% for item in skills[2].intermediate %}
+                  {% for item in skills[1].intermediate %}
                     <div> {{ item }}</div>
                   {% endfor %}
 
               </div>
-              <div class="col-md-3 col-sm-6 col-xs-12 expbox">
+              <div class="col-md-4 col-sm-4 col-xs-12 expbox">
                 <div><h6>Novice</h6></div>
 
                   {% assign skills = site.data.skills %}
-                  {% for item in skills[3].novice %}
+                  {% for item in skills[2].novice %}
                     <div> {{ item }}</div>
                   {% endfor %}
 
               </div>
             </div>
           </div>
+
+          <div class="container" style="padding: 0px 25px 15px 25px;">
+              <div class="col-md-6 col-sm-6 col-xs-12 expbox">
+                <p>
+                  Level
+                  <ul>
+                    <li><strong>Advanced:</strong> I apply this skill expertly, know its limits, and can mentor others.</li><br>
+                    <li><strong>Intermediate:</strong> I can use this skill independently in projects and support beginners.</li><br>
+                    <li><strong>Novice:</strong> I know the basics and can practice with guidance, but rely mostly on theory.</li>
+                  </ul>
+                </p>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12 expbox">
+                <p>
+                  Domain
+                  <ul>
+                    <li>📝 <strong>Documentation:</strong> I create clear and structured content.</li><br>
+                    <li>🔧 <strong>Toolkit:</strong> I use tools and formats to produce and manage documentation.</li><br>
+                    <li>🤖 <strong>AI Skills:</strong> I apply AI prompting to streamline writing and analysis tasks.</li><br>
+                    <li>📒 <strong>Knowledge:</strong> I understand the industry context that informs documentation.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
 
         </div>
       </div>

@@ -9,16 +9,16 @@
         "endDate": "Present",
         "projects": [
           {
-            "project": "Scalable Documentation Framework",
-            "impact": "For a leading clothing company, I integrated a documentation directory into an application template, ensuring new applications seamlessly instantiate with prebuilt documentation templates to set up documentation projects in the company developer portal quickly. This integration features a README with guidelines for writing API query pages, creating architecture diagrams, and writing release notes. I documented an application with this framework, which serves as a reference point for new applications' documentation projects."
+            "project": "Generative AI POC – Major Media Company",
+            "impact": "Designed and authored technical documentation for a proof-of-concept integrating AWS Media2Cloud and MRE, automating video highlight generation with 90% accuracy in location and celebrity detection. Conducted requirements analysis and tested foundational model accuracy, producing an AI pipeline overview and user manuals that improved clarity and usability for engineering teams."
           },
           {
-            "project": "P&L DataLake codebase documentation",
-            "impact": "For a leading beverage company, I authored documentation for a three-layer architecture DataLake for a P&L report application using Azure DevOps Wiki. The documentation's key feature includes an Azure Databricks workflow diagram. Each of the 35 jobs within the workflow is independently documented containing their respective data flow diagrams. This documentation provides the IT team with clear instructions for managing parametrization and scalability."
+            "project": "Scalable Documentation Framework – Major Clothing Brand",
+            "impact": "Designed and implemented a reusable documentation framework embedded into app boilerplates, enabling engineering teams to produce consistent, high-quality documentation quickly. The framework included built-in guides for API queries, release notes, and architecture diagrams, standardizing processes and accelerating onboarding."
           },
           {
-            "project": "Prompt engineering for GenAI POC",
-            "impact": "For Wizeline, I participated as a prompt engineer on an AI POC capable of autonomously maintaining a database leveraging web scrapping techniques and the OpenAI API. Additionally, I supported the technical writing program in outlining standards for AI POC documentation."
+            "project": "P&L DataLake Documentation – Leading Beverage Company",
+            "impact": "Authored comprehensive documentation for a P&L DataLake, including data flow diagrams for 35 Azure Databricks jobs and a full-system workflow diagram. This improved developer onboarding, supported efficient scaling, and provided a single source of truth for the team."
           }
         ]
       },
@@ -54,7 +54,7 @@
         "company": "Honeywell",
         "companyURL": "www.honeywell.com",
         "companyLogo": "img/company/honeywell.jpeg",
-        "title": "IT Analyst III",
+        "title": "Systems Analyst III",
         "startDate": "2020/10",
         "endDate": "2022/03",
         "projects": [
@@ -73,7 +73,7 @@
         "company": "Honeywell",
         "companyURL": "www.honeywell.com",
         "companyLogo": "img/company/honeywell.jpeg",
-        "title": "IT Analyst II",
+        "title": "Systems Analyst II",
         "startDate": "2017/01",
         "endDate": "2020/10",
         "projects": [
@@ -100,7 +100,7 @@
         "company": "Honeywell",
         "companyURL": "www.honeywell.com",
         "companyLogo": "img/company/honeywell.jpeg",
-        "title": "IT Analyst I",
+        "title": "Systems Analyst I",
         "startDate": "2015/07",
         "endDate": "2022/03",
         "projects": [
